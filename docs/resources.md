@@ -16,6 +16,11 @@ This page contains several useful links that will come in handy during the cours
 - **[BASIS Online Help](https://documentation.basis.cloud/BASISHelp/WebHelp/index.htm)** - The main BBj documentation portal with searchable help for all BBj topics
 - **[DWC Overview](https://documentation.basis.cloud/BASISHelp/WebHelp/dwc/DWC_Overview.htm)** - Introduction to the Dynamic Web Client
 
+## DWC Component Reference
+
+- **[dwc.style](https://dwc.style/)** - The official DWC component documentation. This is your go-to reference for looking up CSS custom properties, shadow parts, attributes, and styling options for every DWC control. Includes guides on themes, animations, form validation, and style directives.
+- **[DWC Design Kit (Figma)](https://www.figma.com/community/file/1144573845612007198/dwc-design-kit)** - A Figma design kit for mocking up DWC application interfaces
+
 ## DWC-Related Topics
 
 - **[Mozilla Developer: Using CSS Custom Properties (Variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)** - Defines CSS custom properties, basic usage, inheritance, and fallback values

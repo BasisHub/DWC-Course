@@ -52,8 +52,8 @@ const config: Config = {
     navbar: {
       title: 'BBj DWC Training',
       logo: {
-        alt: 'BBj DWC Logo',
-        src: 'img/logo.svg',
+        alt: 'DWC Logo',
+        src: 'img/dwc-logo.png',
       },
       items: [
         {
