@@ -23,8 +23,7 @@ The BBjGridExWidget works well in the DWC, which is why this course proposes it 
 
 ### Resources
 
-- [BBjGridExWidget Documentation](https://documentation.basis.cloud/BASISHelp/WebHelp/gridexwidget/gridexwidget.htm)
-- [GitHub Repository](https://github.com/BBj-Plugins/BBjGridExWidget)
+- [BBjGridExWidget on GitHub](https://github.com/BBj-Plugins/BBjGridExWidget) - Documentation, examples, and source code
 
 ## Differences Between BBjStandardGrid and BBjGridExWidget
 

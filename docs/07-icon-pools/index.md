@@ -92,5 +92,5 @@ deleteBtn!.setAttribute("theme", "danger")
 
 ## Resources
 
-- [Tabler Icons](https://tabler-icons.io/) - Browse available icons
-- [DWC Icon Documentation](https://documentation.basis.cloud/BASISHelp/WebHelp/dwc/dwc-icons.htm)
+- [Tabler Icons](https://tabler.io/icons) - Browse available icons
+- [BASIS Online Help](https://documentation.basis.cloud/BASISHelp/WebHelp/index.htm) - Search for "DWC icons"

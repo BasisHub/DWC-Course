@@ -64,9 +64,8 @@ The site automatically deploys to GitHub Pages via GitHub Actions when changes a
 
 ## Resources
 
-- [BASIS DWC Documentation](https://documentation.basis.cloud/BASISHelp/WebHelp/dwcintro/dwc_intro.htm)
-- [BASIS Online Help](https://documentation.basis.cloud/BASISHelp/WebHelp/bbjobjects/Home.htm)
-- [BASIS Forums](https://forum.basis.cloud/)
+- [BASIS Online Help](https://documentation.basis.cloud/BASISHelp/WebHelp/index.htm) - Main documentation portal
+- [DWC Overview](https://documentation.basis.cloud/BASISHelp/WebHelp/dwc/DWC_Overview.htm) - Introduction to the Dynamic Web Client
 
 ## License
 

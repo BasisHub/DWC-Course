@@ -12,7 +12,7 @@ This chapter covers debugging techniques specific to the Dynamic Web Client.
 When a BBj program encounters an untrapped error, it drops to a minimal debug console where the developer can debug the problem and either restart or terminate the program. As of BBj 22, a basic console is available for debugging in DWC.
 
 :::note
-Like the BUI [mini console](https://documentation.basis.cloud/BASISHelp/WebHelp/sysadmin/config/the_config_bbx_configuration_file_bbj_spec.htm), this debug console is not intended for production deployment.
+Like the BUI mini console, this debug console is not intended for production deployment.
 :::
 
 ## The DWC Debug Console

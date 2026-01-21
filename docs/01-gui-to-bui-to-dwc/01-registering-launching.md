@@ -15,7 +15,7 @@ This section covers registering a simple "Hello World" BBj program to run in BUI
 
 ## Registering Apps for the Web
 
-Before running your graphical BBj application in the BUI or DWC client, you must first register it as a web app in Enterprise Manager or by running code that accomplishes the task via the BBj admin API (see the [BBjAppServer documentation](https://documentation.basis.cloud/BASISHelp/WebHelp/bbjobjects/BBjAppServer/BBjAppServer.htm) for reference material).
+Before running your graphical BBj application in the BUI or DWC client, you must first register it as a web app in Enterprise Manager or by running code that accomplishes the task via the BBj admin API (search for "BBjAppServer" in the [BASIS Online Help](https://documentation.basis.cloud/BASISHelp/WebHelp/index.htm) for reference material).
 
 Registering an app means that you'll provide all the information necessary so that BBj can launch your application in a browser. Some of the necessary information includes:
 

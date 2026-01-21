@@ -9,13 +9,12 @@ This page contains several useful links that will come in handy during the cours
 
 ## Course Files
 
-- **[DWCTraining Repository](https://github.com/ArtifexSoftware/training-dwc)** - Github repository with the various files used throughout the course
+- **[Sample Code](samples)** - BBj source files and supporting assets for hands-on exercises, included in the `samples/` directory
 
 ## BASIS Documentation
 
-- **[BASIS Online Help](https://documentation.basis.cloud/BASISHelp/WebHelp/bbjobjects/Home.htm)** - Covers almost everything in the BBj language
-- **[BBj DWC-specific Documentation](https://documentation.basis.cloud/BASISHelp/WebHelp/dwcintro/dwc_intro.htm)** - Covers attributes, directives, themes, and validation as well as control-specific information such as attributes, shadow parts, class names, and CSS custom properties.
-- **[BBj DWC Theme Engine](https://documentation.basis.cloud/BASISHelp/WebHelp/dwc/BBjDWCThemeEngine.htm)** - Covers CSS custom properties, CSS parts in the shadow DOM, color palettes, component themes, and application themes. It also includes topics on typography, sizing and spacing, CSS custom properties for styles, transitions, and custom properties specific to windows.
+- **[BASIS Online Help](https://documentation.basis.cloud/BASISHelp/WebHelp/index.htm)** - The main BBj documentation portal with searchable help for all BBj topics
+- **[DWC Overview](https://documentation.basis.cloud/BASISHelp/WebHelp/dwc/DWC_Overview.htm)** - Introduction to the Dynamic Web Client
 
 ## DWC-Related Topics
 
@@ -25,7 +24,6 @@ This page contains several useful links that will come in handy during the cours
 ## DWC Themer
 
 - **[DWC Themer](https://dwc.nicksworkbench.net/)** - A "work-in-progress" version of the DWC Themer app shown in the TechCon DWC sessions. You can launch the themer via the link, create a custom theme by changing the values for several of the DWC's CSS custom properties, then download the CSS theme file to your browser's downloads directory. It's also possible to import an existing CSS theme file in order to make changes to it or to use it as a base for an entirely new CSS theme.
-- **[Using the DWC Themer](https://docs.google.com/document/d/1J8iJvJ_kJ8JvJvJvJvJvJvJvJvJvJvJ)** - A document that covers the DWC Themer's capabilities along with background information on CSS custom properties.
 
 ## Browser Developer Tools Links
 

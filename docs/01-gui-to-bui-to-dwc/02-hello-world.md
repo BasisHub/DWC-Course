@@ -34,9 +34,9 @@ release
 
 ## Program Notes
 
-The code determines the runtime client by comparing the value for the `INFO(3,6)` to known values listed in the [INFO() Function documentation](https://documentation.basis.cloud/BASISHelp/WebHelp/commands/info_function.htm). It then displays a BBj message box and includes the client information in the message body.
+The code determines the runtime client by comparing the value for the `INFO(3,6)` to known values listed in the INFO() Function documentation (search for "INFO Function" in the [BASIS Online Help](https://documentation.basis.cloud/BASISHelp/WebHelp/index.htm)). It then displays a BBj message box and includes the client information in the message body.
 
-The message box specifies the information icon using a `BBjSysGui` constant, which corresponds to 64 in the [MSGBOX() Function documentation](https://documentation.basis.cloud/BASISHelp/WebHelp/commands/msgbox_function.htm). This is not necessary, but it does improve the code's legibility because the developer does not need to memorize all the numerical values for the icon types.
+The message box specifies the information icon using a `BBjSysGui` constant, which corresponds to 64 in the MSGBOX() Function documentation (search for "MSGBOX Function" in the [BASIS Online Help](https://documentation.basis.cloud/BASISHelp/WebHelp/index.htm)). This is not necessary, but it does improve the code's legibility because the developer does not need to memorize all the numerical values for the icon types.
 
 Finally, the code adds a MODE to the MSGBOX() function that indicates that the message box should be displayed in the DWC's primary color theme. This parameter is ignored in the GUI and BUI clients so it has no effect when run in those clients.
 
@@ -77,9 +77,7 @@ The message box function's MODE parameter may contain any number of key/value pa
 
 ## Helpful Links
 
-- [BBj Message Box function](https://documentation.basis.cloud/BASISHelp/WebHelp/commands/msgbox_function.htm)
-- [DWC-specific message box documentation](https://documentation.basis.cloud/BASISHelp/WebHelp/dwc/BBjMsgBox.htm)
-- [DWC component themes](https://documentation.basis.cloud/BASISHelp/WebHelp/dwc/dwc-themes.htm)
+- [BASIS Online Help](https://documentation.basis.cloud/BASISHelp/WebHelp/index.htm) - Search for "MSGBOX Function", "BBjMsgBox", or "DWC themes"
 
 ## Going the Extra Mile
 

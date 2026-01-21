@@ -37,8 +37,6 @@ While it's not necessary to fully understand CSS Grid and Flexbox, those concept
 
 - **[FreeCodeCamp's Responsive Web Design Certification](https://www.freecodecamp.org/learn/responsive-web-design/)** - Covers everything you need to know and then some. Complete the Basic HTML and HTML5 course, then complete the Basic CSS course. The Responsive Web Design Principles course, CSS Flexbox course, and CSS Grid course introduce layout concepts.
 
-- **[Upskill's HTML & CSS Syntax Review](https://upskillcourses.com/courses/html-css-syntax-review)**
-
 - **[Khan Academy's Intro to HTML/CSS](https://www.khanacademy.org/computing/computer-programming/html-css)**
 
 - **[Codecademy's Learn HTML](https://www.codecademy.com/learn/learn-html)** and **[Learn CSS](https://www.codecademy.com/learn/learn-css)**
@@ -60,5 +58,4 @@ Your setup for this course should look like this:
 
 ## More Information
 
-- The DWC Training Class Prerequisites are also available in [Google document format](https://docs.google.com/document/d/1J8iJvJ_kJ8JvJvJvJvJvJvJvJvJvJvJ)
 - The next section, [Useful Links](./resources), contains links to BASIS' BBj and DWC-specific documentation as well as related CSS reference materials

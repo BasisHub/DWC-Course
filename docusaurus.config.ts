@@ -63,7 +63,7 @@ const config: Config = {
           label: 'Course',
         },
         {
-          href: 'https://documentation.basis.cloud/BASISHelp/WebHelp/dwcintro/dwc_intro.htm',
+          href: 'https://documentation.basis.cloud/BASISHelp/WebHelp/dwc/DWC_Overview.htm',
           label: 'DWC Docs',
           position: 'right',
         },
@@ -95,20 +95,11 @@ const config: Config = {
           items: [
             {
               label: 'BASIS Online Help',
-              href: 'https://documentation.basis.cloud/BASISHelp/WebHelp/bbjobjects/Home.htm',
+              href: 'https://documentation.basis.cloud/BASISHelp/WebHelp/index.htm',
             },
             {
               label: 'DWC Documentation',
-              href: 'https://documentation.basis.cloud/BASISHelp/WebHelp/dwcintro/dwc_intro.htm',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'BASIS Forums',
-              href: 'https://forum.basis.cloud/',
+              href: 'https://documentation.basis.cloud/BASISHelp/WebHelp/dwc/DWC_Overview.htm',
             },
           ],
         },
