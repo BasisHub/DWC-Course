@@ -27,9 +27,9 @@ This training covers:
 
 Before starting this course, please review the [Prerequisites](prerequisites) to ensure you have the necessary background knowledge and setup.
 
-## Course Materials
+## Sample Code
 
-The course repository with exercise files is available at: [GitHub Repository](https://github.com/ArtifexSoftware/training-dwc)
+Hands-on [sample code](samples) is included with this course. Each chapter has corresponding BBj source files you can run and experiment with.
 
 ## Setup Requirements
 

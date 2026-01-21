@@ -47,9 +47,7 @@ There are many other free and paid training courses available. As long as you ar
 
 ## Course Materials
 
-Here is the link to the repository with the various files you'll be using throughout this course. The repository is structured in chapters, which correspond with the various chapters contained within this course.
-
-**[Course Repository](https://github.com/ArtifexSoftware/training-dwc)**
+The [sample code](samples) for this course is included in the `samples/` directory of the repository. The samples are organized by chapter and include BBj source files, CSS stylesheets, and other supporting files you'll use throughout the course.
 
 ## Setup Check
 
