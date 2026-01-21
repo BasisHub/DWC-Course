@@ -1,41 +1,56 @@
-# Website
+# BBj Dynamic Web Client (DWC) Training Course
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+A comprehensive 12-chapter training curriculum for BBj 24.02+ Dynamic Web Client development. This course covers everything from basic GUI-to-DWC migration to advanced responsive layouts and deployment.
 
-## Installation
+**View the course:** [https://BasisHub.github.io/DWC-Course/](https://BasisHub.github.io/DWC-Course/)
 
-```bash
-yarn
-```
+## Course Contents
+
+1. **GUI to BUI to DWC** - Understanding the evolution and registering/launching applications
+2. **Browser Developer Tools** - CSS fundamentals, DevTools usage, and DWC theming
+3. **DWC Debugging** - Debugging techniques for DWC applications
+4. **Upgrading Applications** - Working with ARC files and upgrading grids
+5. **DWC Controls** - Modern DWC control features and usage
+6. **Flow Layouts** - CSS Flexbox and Grid layouts in DWC
+7. **Icon Pools** - Using and customizing icon pools
+8. **Control Validation** - Input validation patterns
+9. **Browser Constraints** - Working within browser limitations
+10. **Embedding Components** - Integrating web components
+11. **Advanced Responsive Design** - Media queries and CSS transitions
+12. **Deployment** - Production deployment strategies
+
+## Prerequisites
+
+- BBj 24.02 or later
+- Basic BBj programming knowledge
+- A modern web browser (Chrome recommended for DevTools)
 
 ## Local Development
 
 ```bash
-yarn start
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
+# Build for production
+npm run build
+
+# Serve production build locally
+npm run serve
 ```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```bash
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ## Deployment
 
-Using SSH:
+The site automatically deploys to GitHub Pages via GitHub Actions when changes are pushed to the `main` branch.
 
-```bash
-USE_SSH=true yarn deploy
-```
+## Resources
 
-Not using SSH:
+- [BASIS DWC Documentation](https://documentation.basis.cloud/BASISHelp/WebHelp/dwcintro/dwc_intro.htm)
+- [BASIS Online Help](https://documentation.basis.cloud/BASISHelp/WebHelp/bbjobjects/Home.htm)
+- [BASIS Forums](https://forum.basis.cloud/)
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
+## License
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Copyright BASIS International Ltd. Content from BBj DWC Training Course.
