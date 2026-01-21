@@ -9,7 +9,7 @@ This page lists the prerequisites for the BBj DWC Training course. It also conta
 
 ## DWC Training Class Prerequisites
 
-Students should be familiar with the following concepts before beginning the DWC training course in order to get the most out of the classes and material. Listed below are recommended BASIS E-Learning Courses and/or Concepts:
+Students should be familiar with the following concepts before beginning the DWC training course. If you're new to BBj, the **[BBj Beginner Course](https://basishub.github.io/BBj-Beginner-Course/)** covers all of these foundational topics:
 
 ### BASIS Product Development in BDT
 
