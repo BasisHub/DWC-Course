@@ -23,7 +23,7 @@ This page contains several useful links that will come in handy during the cours
 
 ## DWC Themer
 
-- **[DWC Themer](https://dwc.nicksworkbench.net/)** - A "work-in-progress" version of the DWC Themer app shown in the TechCon DWC sessions. You can launch the themer via the link, create a custom theme by changing the values for several of the DWC's CSS custom properties, then download the CSS theme file to your browser's downloads directory. It's also possible to import an existing CSS theme file in order to make changes to it or to use it as a base for an entirely new CSS theme.
+- **[DWC Themer](https://us.bbx.kitchen/webapp/DWCThemer)** - A "work-in-progress" version of the DWC Themer app shown in the TechCon DWC sessions. You can launch the themer via the link, create a custom theme by changing the values for several of the DWC's CSS custom properties, then download the CSS theme file to your browser's downloads directory. It's also possible to import an existing CSS theme file in order to make changes to it or to use it as a base for an entirely new CSS theme.
 
 ## Browser Developer Tools Links
 
