@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'BBj DWC Training',
-  tagline: 'BBj 24.02+ Dynamic Web Client Training Course',
+  tagline: 'Dynamic Web Client Training Course',
   favicon: 'img/favicon.ico',
 
   future: {

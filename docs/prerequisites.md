@@ -56,6 +56,10 @@ Your setup for this course should look like this:
 - **BDT 24**
 - **VSCode** or another editor for CSS
 
+:::info BBj Version Requirements
+This course was developed for **BBj 24.02**, which introduced significant DWC enhancements. The Dynamic Web Client is continuously updated with new features and improvements in each BBj release. Some features discussed in this course may require BBj 24.02 or later, while others may require even more recent versions. Check the [BASIS Online Help](https://documentation.basis.cloud/BASISHelp/WebHelp/index.htm) for version-specific documentation.
+:::
+
 ## More Information
 
 - The next section, [Useful Links](./resources), contains links to BASIS' BBj and DWC-specific documentation as well as related CSS reference materials

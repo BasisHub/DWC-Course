@@ -1,6 +1,6 @@
 # BBj Dynamic Web Client (DWC) Training Course
 
-A comprehensive 12-chapter training curriculum for BBj 24.02+ Dynamic Web Client development. This course covers everything from basic GUI-to-DWC migration to advanced responsive layouts and deployment.
+A comprehensive 12-chapter training curriculum for BBj Dynamic Web Client (DWC) development. This course covers everything from basic GUI-to-DWC migration to advanced responsive layouts and deployment.
 
 **View the course:** [https://BasisHub.github.io/DWC-Course/](https://BasisHub.github.io/DWC-Course/)
 

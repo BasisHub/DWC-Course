@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Docusaurus 3.9.2 documentation website for the BBj 24.02+ Dynamic Web Client (DWC) Training Course. It's a 10-chapter training curriculum teaching BBj DWC development.
+This is a Docusaurus 3.9.2 documentation website for the BBj Dynamic Web Client (DWC) Training Course. It's a 12-chapter training curriculum teaching BBj DWC development.
 
 ## Common Commands
 

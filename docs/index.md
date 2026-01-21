@@ -4,7 +4,7 @@ slug: /
 title: BBj DWC Training
 ---
 
-# BBj 24.02+ DWC Training
+# BBj DWC Training
 
 Welcome to the BBj Dynamic Web Client (DWC) Training course. This course will teach you how to develop modern web applications using BBj and the Dynamic Web Client.
 
@@ -35,7 +35,7 @@ Hands-on [sample code](samples) is included with this course. Each chapter has c
 
 Your setup for this course should include:
 
-- BBj 24.02+
+- BBj 24.02 or later
 - Eclipse IDE
 - BDT 24
 - VSCode or another editor for CSS
