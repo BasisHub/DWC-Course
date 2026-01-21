@@ -262,6 +262,10 @@ The `::part(control)` pseudo-element targets the button's exposed "control" part
 Inheritable styles (background, color, font, line height, etc.) continue to inherit in shadow DOM and can penetrate the shadow DOM boundary. Outside styles always win over styles defined in shadow DOM.
 :::
 
+:::tip Finding CSS Properties and Parts
+Each DWC control exposes different CSS custom properties and shadow parts. Use **[dwc.style](https://dwc.style/)** to look up the available properties and parts for any control. Select a control from the sidebar to see its CSS custom properties, shadow parts, and attributes.
+:::
+
 ## Font Size Compatibility
 
 The DWC has a larger default font size (14px) compared to BUI (10.6667px / 8pt).
