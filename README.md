@@ -19,6 +19,23 @@ A comprehensive 12-chapter training curriculum for BBj 24.02+ Dynamic Web Client
 11. **Advanced Responsive Design** - Media queries and CSS transitions
 12. **Deployment** - Production deployment strategies
 
+## Sample Code
+
+The `samples/` directory contains BBj source files and supporting assets for hands-on exercises:
+
+| Directory | Topic |
+|-----------|-------|
+| `01_GUI2BUI2DWC/` | GUI to DWC migration examples |
+| `02_CSSStylesAndCustomProperties/` | CSS styling and custom properties |
+| `03B_ArcFiles/` | ARC file configuration |
+| `03C_Grid2GridEx/` | Grid to GridEx migration |
+| `04_ExtendedAttributes/` | Extended control attributes |
+| `05_CssLayouts/` | Flexbox and Grid layout examples |
+| `06_IconPools/` | Icon pool usage |
+| `07_ControlValiation/` | Input validation patterns |
+| `08_BrowserConstraints/` | Browser constraint handling |
+| `09_EmbeddingOtherComponents/` | Embedding web components |
+
 ## Prerequisites
 
 - BBj 24.02 or later
