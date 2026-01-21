@@ -14,7 +14,10 @@
       "Bash(cat:*)",
       "Bash(md5:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(gh repo view:*)",
+      "Bash(gh api:*)",
+      "Bash(git subtree:*)"
     ]
   }
 }
