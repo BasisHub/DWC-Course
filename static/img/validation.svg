@@ -1,0 +1,14 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" fill-rule="evenodd">
+    <!-- Shield background -->
+    <path d="M100 20 L170 50 L170 110 C170 150 140 175 100 190 C60 175 30 150 30 110 L30 50 Z" fill="#25c2a0" opacity="0.2" stroke="#25c2a0" stroke-width="4"/>
+
+    <!-- Checkmark -->
+    <path d="M65 105 L90 130 L140 70" stroke="#25c2a0" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Small decorative circles -->
+    <circle cx="45" cy="70" r="5" fill="#25c2a0" opacity="0.5"/>
+    <circle cx="155" cy="70" r="5" fill="#25c2a0" opacity="0.5"/>
+    <circle cx="100" cy="170" r="5" fill="#25c2a0" opacity="0.5"/>
+  </g>
+</svg>
