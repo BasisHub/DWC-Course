@@ -42,10 +42,10 @@ Requirements for initial release. Focus: platform foundations, search, visual po
 
 ### Content Audit
 
-- [ ] **CONT-01**: All 12 chapters audited for clarity, logical flow, and completeness
-- [ ] **CONT-02**: Content gaps identified and documented per chapter (what's missing, what's unclear)
-- [ ] **CONT-03**: Recommendations produced for each chapter (specific improvements needed)
-- [ ] **CONT-04**: Priority ranking of chapters by consultant usage frequency and learner progression
+- [x] **CONT-01**: All 12 chapters audited for clarity, logical flow, and completeness
+- [x] **CONT-02**: Content gaps identified and documented per chapter (what's missing, what's unclear)
+- [x] **CONT-03**: Recommendations produced for each chapter (specific improvements needed)
+- [x] **CONT-04**: Priority ranking of chapters by consultant usage frequency and learner progression
 
 ## v2 Requirements
 
@@ -136,10 +136,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | DES-01 | Phase 3 | Complete |
 | DES-02 | Phase 3 | Complete |
 | DES-03 | Phase 3 | Complete |
-| CONT-01 | Phase 4 | Pending |
-| CONT-02 | Phase 4 | Pending |
-| CONT-03 | Phase 4 | Pending |
-| CONT-04 | Phase 4 | Pending |
+| CONT-01 | Phase 4 | Complete |
+| CONT-02 | Phase 4 | Complete |
+| CONT-03 | Phase 4 | Complete |
+| CONT-04 | Phase 4 | Complete |
 
 **Coverage:**
 - v1 requirements: 18 total
@@ -148,4 +148,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-01-31*
-*Last updated: 2026-01-31 — Phase 3 requirements complete (NAV-01/02/03, DES-01/02/03)*
+*Last updated: 2026-01-31 — All v1 requirements complete (18/18)*
