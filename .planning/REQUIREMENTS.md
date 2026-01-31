@@ -1,7 +1,7 @@
 # Requirements: BBj DWC Training Course Enhancement
 
 **Defined:** 2026-01-31
-**Core Value:** The definitive, go-to resource for learning and adopting DWC — so good that developers want to come back, consultants reach for it in meetings, and all language communities feel included.
+**Core Value:** The definitive, go-to resource for learning and adopting DWC -- so good that developers want to come back, consultants reach for it in meetings, and all language communities feel included.
 
 ## v1 Requirements
 
@@ -9,14 +9,14 @@ Requirements for initial release. Focus: platform foundations, search, visual po
 
 ### Pre-Flight
 
-- [ ] **PRE-01**: Resolve `future.v4: true` flag — decide keep/remove before any plugin integration
+- [ ] **PRE-01**: Resolve `future.v4: true` flag -- decide keep/remove before any plugin integration
 - [ ] **PRE-02**: Verify React 19 compatibility with all planned Docusaurus plugins
 - [ ] **PRE-03**: Resolve baseUrl discrepancy (`/DWC-Course/` vs `/bbj-dwc-tutorial/`) in config
 - [ ] **PRE-04**: Add `npm run typecheck` to GitHub Actions CI pipeline before build step
 
 ### Search & Discovery
 
-- [ ] **SRCH-01**: Algolia DocSearch integrated — full-text search across all course content
+- [ ] **SRCH-01**: Algolia DocSearch integrated -- full-text search across all course content
 - [ ] **SRCH-02**: Search accessible via keyboard shortcut (Cmd+K / Ctrl+K)
 - [ ] **SRCH-03**: Search results show context snippets and link to specific sections
 - [ ] **SRCH-04**: Search configured with `contextualSearch: true` for future i18n compatibility
@@ -24,19 +24,19 @@ Requirements for initial release. Focus: platform foundations, search, visual po
 ### Navigation & UX
 
 - [ ] **NAV-01**: Sidebar chapters grouped into logical sections (e.g., "Getting Started", "Core Concepts", "Advanced Topics", "Deployment")
-- [ ] **NAV-02**: Responsive audit — ChapterCards and HomepageFeatures components render correctly on mobile/tablet
+- [ ] **NAV-02**: Responsive audit -- ChapterCards and HomepageFeatures components render correctly on mobile/tablet
 - [ ] **NAV-03**: All custom components tested across Chrome, Firefox, Safari at mobile/tablet/desktop breakpoints
 
 ### Code & Visual Enhancements
 
-- [ ] **VIS-01**: Mermaid diagrams enabled via `@docusaurus/theme-mermaid` — architecture and flow diagrams renderable from Markdown
+- [ ] **VIS-01**: Mermaid diagrams enabled via `@docusaurus/theme-mermaid` -- architecture and flow diagrams renderable from Markdown
 - [ ] **VIS-02**: Code block copy button enabled across all code blocks
-- [ ] **VIS-03**: Image optimization via `@docusaurus/plugin-ideal-image` — responsive sizing, quality optimization for PNG screenshots
-- [ ] **VIS-04**: BBj syntax highlighting verified working with Prism (already supported — confirm in current config)
+- [ ] **VIS-03**: Image optimization via `@docusaurus/plugin-ideal-image` -- responsive sizing, quality optimization for PNG screenshots
+- [ ] **VIS-04**: BBj syntax highlighting verified working with Prism (already supported -- confirm in current config)
 
 ### Visual Design & Polish
 
-- [ ] **DES-01**: Homepage redesigned to feel polished and modern — worthy of showing to prospects
+- [ ] **DES-01**: Homepage redesigned to feel polished and modern -- worthy of showing to prospects
 - [ ] **DES-02**: Consistent visual language across all custom components (cards, icons, spacing)
 - [ ] **DES-03**: Dark mode verified working with all new components and Mermaid diagrams
 
@@ -126,13 +126,13 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SRCH-02 | Phase 2 | Pending |
 | SRCH-03 | Phase 2 | Pending |
 | SRCH-04 | Phase 2 | Pending |
-| NAV-01 | Phase 3 | Pending |
-| NAV-02 | Phase 3 | Pending |
-| NAV-03 | Phase 3 | Pending |
 | VIS-01 | Phase 2 | Pending |
 | VIS-02 | Phase 2 | Pending |
 | VIS-03 | Phase 2 | Pending |
 | VIS-04 | Phase 2 | Pending |
+| NAV-01 | Phase 3 | Pending |
+| NAV-02 | Phase 3 | Pending |
+| NAV-03 | Phase 3 | Pending |
 | DES-01 | Phase 3 | Pending |
 | DES-02 | Phase 3 | Pending |
 | DES-03 | Phase 3 | Pending |
@@ -144,8 +144,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 **Coverage:**
 - v1 requirements: 18 total
 - Mapped to phases: 18
-- Unmapped: 0 ✓
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-01-31*
-*Last updated: 2026-01-31 after initial definition*
+*Last updated: 2026-01-31 after roadmap creation*
