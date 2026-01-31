@@ -46,7 +46,7 @@ Code blocks support syntax highlighting for Java, Bash, and BBj (custom language
 
 GitHub Actions deploys to GitHub Pages on push to main branch. The workflow is in `.github/workflows/deploy.yml`.
 
-Base URL is `/bbj-dwc-tutorial/` (configured for GitHub Pages).
+Base URL is `/DWC-Course/` (configured for GitHub Pages).
 
 ## Notes
 
