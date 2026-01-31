@@ -1,54 +1,46 @@
 import type {ReactNode} from 'react';
-import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'BBj to Web',
-    Svg: require('@site/static/img/bbj-to-web.svg').default,
+    title: '12 Progressive Chapters',
     description: (
       <>
-        Learn how to transform your BBj applications into modern web experiences
-        using the Dynamic Web Client.
+        A structured curriculum that takes you from BBj GUI fundamentals
+        through advanced responsive design and production deployment.
       </>
     ),
   },
   {
-    title: 'Modern CSS Layouts',
-    Svg: require('@site/static/img/css-layouts.svg').default,
+    title: 'Hands-On Code Samples',
     description: (
       <>
-        Master CSS Grid and Flexbox to create responsive, professional layouts
-        for your DWC applications.
+        Every chapter includes runnable BBj source files so you can
+        experiment, modify, and learn by doing.
       </>
     ),
   },
   {
-    title: 'Control Validation',
-    Svg: require('@site/static/img/validation.svg').default,
+    title: 'Modern Web Standards',
     description: (
       <>
-        Implement robust input validation with custom validators and real-time
-        user feedback.
+        Learn CSS Grid, Flexbox, web components, theming, and responsive
+        design patterns used in today's web applications.
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, description}: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
+    <div className="col col--4">
+      <div className={styles.featureCard}>
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
       </div>

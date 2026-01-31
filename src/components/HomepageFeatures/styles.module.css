@@ -1,11 +1,16 @@
 .features {
-  display: flex;
-  align-items: center;
   padding: 2rem 0;
   width: 100%;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.featureCard {
+  padding: 1.5rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  height: 100%;
+  text-align: center;
+}
+
+[data-theme='dark'] .featureCard {
+  border-color: var(--ifm-color-emphasis-300);
 }
