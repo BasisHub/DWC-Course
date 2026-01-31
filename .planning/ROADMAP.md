@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Pre-Flight** - Resolve config risks, verify compatibility, and harden CI before any feature work
 - [x] **Phase 2: Search & Visual Tooling** - Enable full-text search, Mermaid diagrams, image optimization, and code block enhancements
-- [ ] **Phase 3: Navigation & Design Polish** - Restructure sidebar, redesign homepage, ensure responsive and visually consistent experience
+- [x] **Phase 3: Navigation & Design Polish** - Restructure sidebar, redesign homepage, ensure responsive and visually consistent experience
 - [ ] **Phase 4: Content Audit** - Audit all 12 chapters for quality and produce prioritized improvement recommendations
 
 ## Phase Details
@@ -66,7 +66,7 @@ Plans:
 Plans:
 - [x] 03-01-PLAN.md -- Foundation: sidebar restructuring into 4 sections, green-to-blue color palette, template cleanup (NAV-01, DES-02)
 - [x] 03-02-PLAN.md -- Homepage redesign: Hero component, text-focused feature highlights, grouped chapter cards, closing CTA (DES-01, DES-02)
-- [ ] 03-03-PLAN.md -- Visual verification: responsive, dark mode, cross-browser acceptance checkpoint (NAV-02, NAV-03, DES-03)
+- [x] 03-03-PLAN.md -- Visual verification: responsive, dark mode, cross-browser acceptance checkpoint (NAV-02, NAV-03, DES-03)
 
 ### Phase 4: Content Audit
 **Goal**: Every chapter has been evaluated and there is a clear, prioritized list of what to improve when content depth work begins in v2
@@ -91,9 +91,9 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 |-------|----------------|--------|-----------|
 | 1. Pre-Flight | 2/2 | ✓ Complete | 2026-01-31 |
 | 2. Search & Visual Tooling | 2/2 | ✓ Complete | 2026-01-31 |
-| 3. Navigation & Design Polish | 2/3 | In progress | - |
+| 3. Navigation & Design Polish | 3/3 | Complete | 2026-01-31 |
 | 4. Content Audit | 0/TBD | Not started | - |
 
 ---
 *Roadmap created: 2026-01-31*
-*Last updated: 2026-01-31 — Plan 03-02 complete (homepage redesign with Hero, features, grouped cards)*
+*Last updated: 2026-01-31 -- Plan 03-03 complete (visual verification approved, Phase 3 complete)*
