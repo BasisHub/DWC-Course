@@ -28,10 +28,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. React 19 compatibility with Algolia search, Mermaid, and ideal-image plugins is verified (or a mitigation path chosen)
   3. `baseUrl` is consistent across all configuration and matches the deployed GitHub Pages URL
   4. A push to main that introduces a TypeScript error fails the CI pipeline before the build step
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 01-01: TBD
+- [ ] 01-01-PLAN.md — Config cleanup: remove future.v4 flag, migrate deprecation warning, fix baseUrl docs (PRE-01, PRE-02, PRE-03)
+- [ ] 01-02-PLAN.md — CI hardening: add typecheck to pipeline, enable PR validation (PRE-04)
 
 ### Phase 2: Search & Visual Tooling
 **Goal**: Users can search the entire course and authors can use diagrams, optimized images, and copy-enabled code blocks
@@ -87,7 +88,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Pre-Flight | 0/TBD | Not started | - |
+| 1. Pre-Flight | 0/2 | Planned | - |
 | 2. Search & Visual Tooling | 0/TBD | Not started | - |
 | 3. Navigation & Design Polish | 0/TBD | Not started | - |
 | 4. Content Audit | 0/TBD | Not started | - |
