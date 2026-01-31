@@ -61,11 +61,12 @@ Plans:
   3. All custom components (ChapterCards, HomepageFeatures, any new components) render correctly on mobile, tablet, and desktop in Chrome, Firefox, and Safari
   4. Dark mode works correctly with all components including Mermaid diagrams, new design elements, and search UI
   5. Visual design is consistent across all custom components (cards, icons, spacing, typography follow a unified design language)
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 03-01: TBD
-- [ ] 03-02: TBD
+- [ ] 03-01-PLAN.md -- Foundation: sidebar restructuring into 4 sections, green-to-blue color palette, template cleanup (NAV-01, DES-02)
+- [ ] 03-02-PLAN.md -- Homepage redesign: Hero component, text-focused feature highlights, grouped chapter cards, closing CTA (DES-01, DES-02)
+- [ ] 03-03-PLAN.md -- Visual verification: responsive, dark mode, cross-browser acceptance checkpoint (NAV-02, NAV-03, DES-03)
 
 ### Phase 4: Content Audit
 **Goal**: Every chapter has been evaluated and there is a clear, prioritized list of what to improve when content depth work begins in v2
@@ -90,9 +91,9 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 |-------|----------------|--------|-----------|
 | 1. Pre-Flight | 2/2 | ✓ Complete | 2026-01-31 |
 | 2. Search & Visual Tooling | 2/2 | ✓ Complete | 2026-01-31 |
-| 3. Navigation & Design Polish | 0/TBD | Not started | - |
+| 3. Navigation & Design Polish | 0/3 | Not started | - |
 | 4. Content Audit | 0/TBD | Not started | - |
 
 ---
 *Roadmap created: 2026-01-31*
-*Last updated: 2026-01-31 — Phase 2 complete*
+*Last updated: 2026-01-31 — Phase 3 planned (3 plans in 3 waves)*
