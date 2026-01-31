@@ -7,6 +7,22 @@ title: "GUI to BUI to DWC"
 
 This chapter covers the fundamentals of transitioning from BBj GUI applications to Browser User Interface (BUI) and the Dynamic Web Client (DWC).
 
+## How the DWC Works
+
+The diagram below shows how a BBj application runs in the DWC. Your BBj code executes on the server, which generates the DWC runtime. The runtime renders the UI in the user's web browser, and user interactions flow back to the server through a JavaScript bridge.
+
+```mermaid
+graph TD
+    A[BBj Application Code] -->|Runs on| B[BBj Server / BBjServices]
+    B -->|Generates| C[DWC Client Runtime]
+    C -->|Renders UI in| D[Web Browser]
+    D -->|User Events| E[JavaScript Bridge]
+    E -->|Callbacks to| B
+
+    style A fill:#2e8555,color:#fff
+    style D fill:#25c2a0,color:#fff
+```
+
 ## Concepts Covered in This Chapter
 
 - Registering and launching BBj GUI apps in the BUI and DWC clients using Eclipse and Enterprise Manager
