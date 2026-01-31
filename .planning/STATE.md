@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-01-31)
 
 **Core value:** The definitive, go-to resource for learning and adopting DWC -- so good that developers want to come back, consultants reach for it in meetings, and all language communities feel included.
-**Current focus:** Phase 2: Search & Visual Tooling (complete) -- ready for Phase 3
+**Current focus:** Phase 3: Navigation & Design Polish (in progress) -- sidebar and color foundation complete
 
 ## Current Position
 
-Phase: 2 of 4 (Search & Visual Tooling)
-Plan: 2 of 2 in current phase
-Status: Phase complete
-Last activity: 2026-01-31 -- Completed 02-02-PLAN.md (image migration: 45 PNGs to IdealImage across 9 files)
+Phase: 3 of 4 (Navigation & Design Polish)
+Plan: 1 of 3 in current phase
+Status: In progress
+Last activity: 2026-01-31 -- Completed 03-01-PLAN.md (sidebar restructuring, blue palette, template cleanup)
 
-Progress: [█████░░░░░] ~57% (4 of ~7 estimated plans)
+Progress: [██████░░░░] ~71% (5 of ~7 estimated plans)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 4
+- Total plans completed: 5
 - Average duration: ~2 min
-- Total execution time: ~8 min
+- Total execution time: ~10 min
 
 **By Phase:**
 
@@ -29,9 +29,10 @@ Progress: [█████░░░░░] ~57% (4 of ~7 estimated plans)
 |-------|-------|-------|----------|
 | 1. Pre-Flight | 2/2 | ~2 min | ~1 min |
 | 2. Search & Visual Tooling | 2/2 | ~6 min | ~3 min |
+| 3. Navigation & Design Polish | 1/3 | ~2 min | ~2 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (~1 min), 01-02 (1 min), 02-01 (3 min), 02-02 (3 min)
+- Last 5 plans: 01-02 (1 min), 02-01 (3 min), 02-02 (3 min), 03-01 (2 min)
 - Trend: Consistent
 
 *Updated after each plan completion*
@@ -56,6 +57,8 @@ Recent decisions affecting current work:
 - [02-01 VIS-03]: themeConfig mermaid and zooming keys pass TypeScript typecheck without type assertion workaround
 - [02-02 VIS-04]: 45 PNG images converted (plan estimated 44; chapter 02 has 5 PNGs not 4)
 - [02-02 VIS-05]: GIF files excluded from migration -- IdealImage processes images at build time which breaks GIF animation
+- [03-01 NAV-01]: Chapters grouped 1-3 Getting Started, 4-6 Core Concepts, 7-11 Advanced Topics, 12 Deployment
+- [03-01 DES-02]: Blue palette uses Tailwind Blue scale -- #2563eb light (Blue 600), #60a5fa dark (Blue 400), WCAG-AA compliant
 
 ### Pending Todos
 
@@ -69,5 +72,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-01-31
-Stopped at: Phase 2 (Search & Visual Tooling) complete and verified -- ready for Phase 3 (Nav & Design Polish)
+Stopped at: Completed 03-01-PLAN.md -- ready for 03-02 (homepage redesign)
 Resume file: None

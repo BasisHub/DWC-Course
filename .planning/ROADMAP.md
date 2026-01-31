@@ -64,7 +64,7 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 03-01-PLAN.md -- Foundation: sidebar restructuring into 4 sections, green-to-blue color palette, template cleanup (NAV-01, DES-02)
+- [x] 03-01-PLAN.md -- Foundation: sidebar restructuring into 4 sections, green-to-blue color palette, template cleanup (NAV-01, DES-02)
 - [ ] 03-02-PLAN.md -- Homepage redesign: Hero component, text-focused feature highlights, grouped chapter cards, closing CTA (DES-01, DES-02)
 - [ ] 03-03-PLAN.md -- Visual verification: responsive, dark mode, cross-browser acceptance checkpoint (NAV-02, NAV-03, DES-03)
 
@@ -91,9 +91,9 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 |-------|----------------|--------|-----------|
 | 1. Pre-Flight | 2/2 | ✓ Complete | 2026-01-31 |
 | 2. Search & Visual Tooling | 2/2 | ✓ Complete | 2026-01-31 |
-| 3. Navigation & Design Polish | 0/3 | Not started | - |
+| 3. Navigation & Design Polish | 1/3 | In progress | - |
 | 4. Content Audit | 0/TBD | Not started | - |
 
 ---
 *Roadmap created: 2026-01-31*
-*Last updated: 2026-01-31 — Phase 3 planned (3 plans in 3 waves)*
+*Last updated: 2026-01-31 — Plan 03-01 complete (sidebar, blue palette, template cleanup)*
