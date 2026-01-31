@@ -45,11 +45,11 @@ Plans:
   4. An author can write a Mermaid code block in Markdown and it renders as a diagram on the published page
   5. Every code block across the site shows a copy button, and clicking it copies the code to clipboard
   6. Images load at appropriate sizes for the user's viewport (responsive image optimization active)
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 02-01: TBD
-- [ ] 02-02: TBD
+- [ ] 02-01-PLAN.md -- Plugin installation and configuration: Mermaid, local search, ideal-image, zooming, copy button verification, example diagram
+- [ ] 02-02-PLAN.md -- Image optimization migration: convert 44 PNG/JPG references across 9 doc files to IdealImage components
 
 ### Phase 3: Navigation & Design Polish
 **Goal**: The site looks polished enough to show prospects and clients, with intuitive navigation for both learners and consultants
