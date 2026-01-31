@@ -23,10 +23,43 @@ const config: Config = {
   },
 
   markdown: {
+    mermaid: true,
     hooks: {
       onBrokenMarkdownLinks: 'warn',
     },
   },
+
+  themes: [
+    '@docusaurus/theme-mermaid',
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        docsRouteBasePath: "/",
+        searchResultLimits: 8,
+        searchResultContextMaxLength: 50,
+        searchBarShortcut: true,
+        searchBarShortcutKeymap: "mod+k",
+      },
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-ideal-image',
+      {
+        quality: 85,
+        max: 1030,
+        min: 640,
+        steps: 2,
+        disableInDev: false,
+      },
+    ],
+    'docusaurus-plugin-zooming',
+  ],
 
   presets: [
     [
@@ -111,6 +144,23 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
       additionalLanguages: ['java', 'bash', 'bbj'],
+    },
+    mermaid: {
+      theme: {
+        light: 'neutral',
+        dark: 'dark',
+      },
+    },
+    zooming: {
+      selector: '.markdown img',
+      delay: 500,
+      background: {
+        light: 'rgba(101,108,133,0.8)',
+        dark: 'rgba(9,10,17,0.8)',
+      },
+      options: {
+        enableGrab: false,
+      },
     },
   } satisfies Preset.ThemeConfig,
 };
