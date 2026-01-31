@@ -77,10 +77,13 @@ Plans:
   2. Each chapter has a specific list of identified content gaps (what is missing, what is unclear, what is outdated)
   3. Each chapter has actionable improvement recommendations that reference available tooling (Mermaid diagrams, code tabs, image optimization)
   4. Chapters are ranked by priority based on consultant usage frequency and learner progression importance
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 04-01: TBD
+- [ ] 04-01-PLAN.md -- Audit Critical-tier foundation chapters (Ch01, Ch02)
+- [ ] 04-02-PLAN.md -- Audit Important-tier chapters (Ch03, Ch04, Ch05) and Critical-tier Ch06
+- [ ] 04-03-PLAN.md -- Audit Nice-to-have tier chapters (Ch07, Ch08, Ch09, Ch10, Ch11, Ch12)
+- [ ] 04-04-PLAN.md -- Summary rollup: tier ranking, cross-chapter patterns, top recommendations
 
 ## Progress
 
@@ -92,8 +95,8 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 | 1. Pre-Flight | 2/2 | ✓ Complete | 2026-01-31 |
 | 2. Search & Visual Tooling | 2/2 | ✓ Complete | 2026-01-31 |
 | 3. Navigation & Design Polish | 3/3 | ✓ Complete | 2026-01-31 |
-| 4. Content Audit | 0/TBD | Not started | - |
+| 4. Content Audit | 0/4 | Not started | - |
 
 ---
 *Roadmap created: 2026-01-31*
-*Last updated: 2026-01-31 -- Plan 03-03 complete (visual verification approved, Phase 3 complete)*
+*Last updated: 2026-01-31 -- Phase 4 planned (4 plans in 2 waves)*
