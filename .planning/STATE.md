@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-01-31)
 
 **Core value:** The definitive, go-to resource for learning and adopting DWC -- so good that developers want to come back, consultants reach for it in meetings, and all language communities feel included.
-**Current focus:** Phase 3 complete. Ready for Phase 4: Content Audit.
+**Current focus:** Phase 4 in progress. Auditing chapters for content quality.
 
 ## Current Position
 
-Phase: 3 of 4 (Navigation & Design Polish)
-Plan: 3 of 3 in current phase
-Status: Phase complete
-Last activity: 2026-01-31 -- Completed 03-03-PLAN.md (visual verification approved)
+Phase: 4 of 4 (Content Audit)
+Plan: 1 of 4 in current phase
+Status: In progress
+Last activity: 2026-01-31 -- Completed 04-01-PLAN.md (Critical-tier Ch01/Ch02 audits)
 
-Progress: [██████████] 100% (7 of 7 plans complete)
+Progress: [███████░░░] 73% (8 of 11 plans complete)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 7
+- Total plans completed: 8
 - Average duration: ~2 min
-- Total execution time: ~13 min
+- Total execution time: ~17 min
 
 **By Phase:**
 
@@ -30,10 +30,11 @@ Progress: [██████████] 100% (7 of 7 plans complete)
 | 1. Pre-Flight | 2/2 | ~2 min | ~1 min |
 | 2. Search & Visual Tooling | 2/2 | ~6 min | ~3 min |
 | 3. Navigation & Design Polish | 3/3 | ~5 min | ~2 min |
+| 4. Content Audit | 1/4 | ~4 min | ~4 min |
 
 **Recent Trend:**
-- Last 5 plans: 02-02 (3 min), 03-01 (2 min), 03-02 (2 min), 03-03 (1 min)
-- Trend: Consistent
+- Last 5 plans: 03-01 (2 min), 03-02 (2 min), 03-03 (1 min), 04-01 (4 min)
+- Trend: Content audit plans take longer (reading + analysis vs implementation)
 
 *Updated after each plan completion*
 
@@ -62,6 +63,9 @@ Recent decisions affecting current work:
 - [03-02 DES-01]: Homepage structured as Hero -> Features -> Cards -> CTA, all text-focused with no illustrations
 - [03-02 DES-02]: Card hover uses blue accent border via var(--ifm-color-primary), inheriting the palette from 03-01
 - [03-03 DES-03]: Visual verification passed -- all 23 items approved across sidebar, homepage, dark mode, responsive, and links
+- [04-01 CONT-01]: Ch01 and Ch02 both scored 3.5/5.0 overall -- differentiated across dimensions, establishing a calibrated baseline
+- [04-01 CONT-02]: Ch02 scope flagged as too broad (828 lines covering 6 distinct topic areas) -- recommend splitting into 2-3 chapters in v2
+- [04-01 CONT-03]: "Going the Extra Mile" idiom identified as cross-chapter i18n pattern requiring a translation strategy, not per-instance fixes
 
 ### Pending Todos
 
@@ -74,6 +78,6 @@ None.
 
 ## Session Continuity
 
-Last session: 2026-01-31T10:27:00Z
-Stopped at: Completed 03-03-PLAN.md -- Phase 3 complete, ready for Phase 4 (Content Audit)
+Last session: 2026-01-31T12:21:43Z
+Stopped at: Completed 04-01-PLAN.md -- Critical-tier Ch01/Ch02 audits done, ready for 04-02 (Important-tier chapters)
 Resume file: None
