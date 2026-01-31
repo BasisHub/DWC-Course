@@ -5,33 +5,33 @@
 See: .planning/PROJECT.md (updated 2026-01-31)
 
 **Core value:** The definitive, go-to resource for learning and adopting DWC -- so good that developers want to come back, consultants reach for it in meetings, and all language communities feel included.
-**Current focus:** Phase 2: Search & Visual Tooling (in progress)
+**Current focus:** Phase 2: Search & Visual Tooling (complete)
 
 ## Current Position
 
 Phase: 2 of 4 (Search & Visual Tooling)
-Plan: 1 of 2 in current phase
-Status: In progress
-Last activity: 2026-01-31 -- Completed 02-01-PLAN.md (plugin foundation: search, mermaid, ideal-image, zooming)
+Plan: 2 of 2 in current phase
+Status: Phase complete
+Last activity: 2026-01-31 -- Completed 02-02-PLAN.md (image migration: 45 PNGs to IdealImage across 9 files)
 
-Progress: [███░░░░░░░] ~43% (3 of ~7 estimated plans)
+Progress: [█████░░░░░] ~57% (4 of ~7 estimated plans)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 3
+- Total plans completed: 4
 - Average duration: ~2 min
-- Total execution time: ~5 min
+- Total execution time: ~8 min
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 1. Pre-Flight | 2/2 | ~2 min | ~1 min |
-| 2. Search & Visual Tooling | 1/2 | ~3 min | ~3 min |
+| 2. Search & Visual Tooling | 2/2 | ~6 min | ~3 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (~1 min), 01-02 (1 min), 02-01 (3 min)
+- Last 5 plans: 01-01 (~1 min), 01-02 (1 min), 02-01 (3 min), 02-02 (3 min)
 - Trend: Consistent
 
 *Updated after each plan completion*
@@ -54,6 +54,8 @@ Recent decisions affecting current work:
 - [02-01 VIS-01]: Used @easyops-cn/docusaurus-search-local instead of Algolia -- immediate, no approval needed
 - [02-01 VIS-02]: Mermaid diagram placed in chapter 1 index (docs/03-dwc-overview does not exist in project)
 - [02-01 VIS-03]: themeConfig mermaid and zooming keys pass TypeScript typecheck without type assertion workaround
+- [02-02 VIS-04]: 45 PNG images converted (plan estimated 44; chapter 02 has 5 PNGs not 4)
+- [02-02 VIS-05]: GIF files excluded from migration -- IdealImage processes images at build time which breaks GIF animation
 
 ### Pending Todos
 
@@ -67,5 +69,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-01-31
-Stopped at: Completed 02-01-PLAN.md -- Plugin foundation installed, ready for 02-02 image migration
+Stopped at: Completed 02-02-PLAN.md -- Phase 2 complete, ready for Phase 3 (Nav & Design Polish)
 Resume file: None
