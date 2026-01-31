@@ -66,9 +66,13 @@ Recent decisions affecting current work:
 - [04-01 CONT-01]: Ch01 and Ch02 both scored 3.5/5.0 overall -- differentiated across dimensions, establishing a calibrated baseline
 - [04-01 CONT-02]: Ch02 scope flagged as too broad (828 lines covering 6 distinct topic areas) -- recommend splitting into 2-3 chapters in v2
 - [04-01 CONT-03]: "Going the Extra Mile" idiom identified as cross-chapter i18n pattern requiring a translation strategy, not per-instance fixes
-- [04-03 CONT-04]: All 6 Nice-to-have chapters scored below 4 on at least one dimension -- all received full detailed analysis
-- [04-03 CONT-05]: Ch10 zero-image gap is the starkest content deficiency in the curriculum -- a visual-embedding chapter with no visuals
-- [04-03 CONT-06]: Ch09 at 3.0/5.0 is the lowest-scoring Nice-to-have chapter -- 95 lines is insufficient for 5 major browser constraint topics
+- [04-02 CONT-04]: Ch04 and Ch05 both scored 1/5 on Code Examples Quality -- zero inline code blocks is a critical gap for teaching chapters
+- [04-02 CONT-05]: Ch05 image-only code presentation flagged as accessibility failure -- code in screenshots is not copyable, searchable, or screen-reader accessible
+- [04-02 CONT-06]: Ch06 (Critical tier) Flexbox coverage is ~30% vs Grid ~70% -- imbalanced for a chapter teaching both layout approaches
+- [04-02 CONT-07]: Ch06 thin media query coverage (10%) directly impacts Ch11 which builds advanced responsive techniques on this foundation
+- [04-03 CONT-08]: All 6 Nice-to-have chapters scored below 4 on at least one dimension -- all received full detailed analysis
+- [04-03 CONT-09]: Ch10 zero-image gap is the starkest content deficiency in the curriculum -- a visual-embedding chapter with no visuals
+- [04-03 CONT-10]: Ch09 at 3.0/5.0 is the lowest-scoring Nice-to-have chapter -- 95 lines is insufficient for 5 major browser constraint topics
 
 ### Pending Todos
 
