@@ -12,7 +12,7 @@ This roadmap transforms the BBj DWC Training Course from a functional static sit
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Pre-Flight** - Resolve config risks, verify compatibility, and harden CI before any feature work
+- [x] **Phase 1: Pre-Flight** - Resolve config risks, verify compatibility, and harden CI before any feature work
 - [ ] **Phase 2: Search & Visual Tooling** - Enable full-text search, Mermaid diagrams, image optimization, and code block enhancements
 - [ ] **Phase 3: Navigation & Design Polish** - Restructure sidebar, redesign homepage, ensure responsive and visually consistent experience
 - [ ] **Phase 4: Content Audit** - Audit all 12 chapters for quality and produce prioritized improvement recommendations
@@ -31,8 +31,8 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 2 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — Config cleanup: remove future.v4 flag, migrate deprecation warning, fix baseUrl docs (PRE-01, PRE-02, PRE-03)
-- [ ] 01-02-PLAN.md — CI hardening: add typecheck to pipeline, enable PR validation (PRE-04)
+- [x] 01-01-PLAN.md — Config cleanup: remove future.v4 flag, migrate deprecation warning, fix baseUrl docs (PRE-01, PRE-02, PRE-03)
+- [x] 01-02-PLAN.md — CI hardening: add typecheck to pipeline, enable PR validation (PRE-04)
 
 ### Phase 2: Search & Visual Tooling
 **Goal**: Users can search the entire course and authors can use diagrams, optimized images, and copy-enabled code blocks
@@ -88,11 +88,11 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Pre-Flight | 0/2 | Planned | - |
+| 1. Pre-Flight | 2/2 | ✓ Complete | 2026-01-31 |
 | 2. Search & Visual Tooling | 0/TBD | Not started | - |
 | 3. Navigation & Design Polish | 0/TBD | Not started | - |
 | 4. Content Audit | 0/TBD | Not started | - |
 
 ---
 *Roadmap created: 2026-01-31*
-*Last updated: 2026-01-31*
+*Last updated: 2026-01-31 — Phase 1 complete*

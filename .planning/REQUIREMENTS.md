@@ -9,10 +9,10 @@ Requirements for initial release. Focus: platform foundations, search, visual po
 
 ### Pre-Flight
 
-- [ ] **PRE-01**: Resolve `future.v4: true` flag -- decide keep/remove before any plugin integration
-- [ ] **PRE-02**: Verify React 19 compatibility with all planned Docusaurus plugins
-- [ ] **PRE-03**: Resolve baseUrl discrepancy (`/DWC-Course/` vs `/bbj-dwc-tutorial/`) in config
-- [ ] **PRE-04**: Add `npm run typecheck` to GitHub Actions CI pipeline before build step
+- [x] **PRE-01**: Resolve `future.v4: true` flag -- decide keep/remove before any plugin integration
+- [x] **PRE-02**: Verify React 19 compatibility with all planned Docusaurus plugins
+- [x] **PRE-03**: Resolve baseUrl discrepancy (`/DWC-Course/` vs `/bbj-dwc-tutorial/`) in config
+- [x] **PRE-04**: Add `npm run typecheck` to GitHub Actions CI pipeline before build step
 
 ### Search & Discovery
 
@@ -118,10 +118,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| PRE-01 | Phase 1 | Pending |
-| PRE-02 | Phase 1 | Pending |
-| PRE-03 | Phase 1 | Pending |
-| PRE-04 | Phase 1 | Pending |
+| PRE-01 | Phase 1 | Complete |
+| PRE-02 | Phase 1 | Complete |
+| PRE-03 | Phase 1 | Complete |
+| PRE-04 | Phase 1 | Complete |
 | SRCH-01 | Phase 2 | Pending |
 | SRCH-02 | Phase 2 | Pending |
 | SRCH-03 | Phase 2 | Pending |
@@ -148,4 +148,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-01-31*
-*Last updated: 2026-01-31 after roadmap creation*
+*Last updated: 2026-01-31 — Phase 1 requirements complete*
