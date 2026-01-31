@@ -23,9 +23,9 @@ Requirements for initial release. Focus: platform foundations, search, visual po
 
 ### Navigation & UX
 
-- [ ] **NAV-01**: Sidebar chapters grouped into logical sections (e.g., "Getting Started", "Core Concepts", "Advanced Topics", "Deployment")
-- [ ] **NAV-02**: Responsive audit -- ChapterCards and HomepageFeatures components render correctly on mobile/tablet
-- [ ] **NAV-03**: All custom components tested across Chrome, Firefox, Safari at mobile/tablet/desktop breakpoints
+- [x] **NAV-01**: Sidebar chapters grouped into logical sections (e.g., "Getting Started", "Core Concepts", "Advanced Topics", "Deployment")
+- [x] **NAV-02**: Responsive audit -- ChapterCards and HomepageFeatures components render correctly on mobile/tablet
+- [x] **NAV-03**: All custom components tested across Chrome, Firefox, Safari at mobile/tablet/desktop breakpoints
 
 ### Code & Visual Enhancements
 
@@ -36,9 +36,9 @@ Requirements for initial release. Focus: platform foundations, search, visual po
 
 ### Visual Design & Polish
 
-- [ ] **DES-01**: Homepage redesigned to feel polished and modern -- worthy of showing to prospects
-- [ ] **DES-02**: Consistent visual language across all custom components (cards, icons, spacing)
-- [ ] **DES-03**: Dark mode verified working with all new components and Mermaid diagrams
+- [x] **DES-01**: Homepage redesigned to feel polished and modern -- worthy of showing to prospects
+- [x] **DES-02**: Consistent visual language across all custom components (cards, icons, spacing)
+- [x] **DES-03**: Dark mode verified working with all new components and Mermaid diagrams
 
 ### Content Audit
 
@@ -130,12 +130,12 @@ Which phases cover which requirements. Updated during roadmap creation.
 | VIS-02 | Phase 2 | Complete |
 | VIS-03 | Phase 2 | Complete |
 | VIS-04 | Phase 2 | Complete |
-| NAV-01 | Phase 3 | Pending |
-| NAV-02 | Phase 3 | Pending |
-| NAV-03 | Phase 3 | Pending |
-| DES-01 | Phase 3 | Pending |
-| DES-02 | Phase 3 | Pending |
-| DES-03 | Phase 3 | Pending |
+| NAV-01 | Phase 3 | Complete |
+| NAV-02 | Phase 3 | Complete |
+| NAV-03 | Phase 3 | Complete |
+| DES-01 | Phase 3 | Complete |
+| DES-02 | Phase 3 | Complete |
+| DES-03 | Phase 3 | Complete |
 | CONT-01 | Phase 4 | Pending |
 | CONT-02 | Phase 4 | Pending |
 | CONT-03 | Phase 4 | Pending |
@@ -148,4 +148,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-01-31*
-*Last updated: 2026-01-31 — Phase 2 requirements complete (Algolia deferred)*
+*Last updated: 2026-01-31 — Phase 3 requirements complete (NAV-01/02/03, DES-01/02/03)*
