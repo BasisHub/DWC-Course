@@ -5,33 +5,33 @@
 See: .planning/PROJECT.md (updated 2026-01-31)
 
 **Core value:** The definitive, go-to resource for learning and adopting DWC -- so good that developers want to come back, consultants reach for it in meetings, and all language communities feel included.
-**Current focus:** Phase 1: Pre-Flight
+**Current focus:** Phase 1: Pre-Flight (complete)
 
 ## Current Position
 
 Phase: 1 of 4 (Pre-Flight)
-Plan: 1 of 2 in current phase
-Status: In progress
-Last activity: 2026-01-31 -- Completed 01-01-PLAN.md (config cleanup, future.v4 removal, baseUrl fix)
+Plan: 2 of 2 in current phase
+Status: Phase complete
+Last activity: 2026-01-31 -- Completed 01-02-PLAN.md (CI hardening with typecheck gate and PR validation)
 
-Progress: [█░░░░░░░░░] ~14% (1 of ~7 estimated plans)
+Progress: [██░░░░░░░░] ~29% (2 of ~7 estimated plans)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 1
+- Total plans completed: 2
 - Average duration: ~1 min
-- Total execution time: ~1 min
+- Total execution time: ~2 min
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 1. Pre-Flight | 1/2 | ~1 min | ~1 min |
+| 1. Pre-Flight | 2/2 | ~2 min | ~1 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (~1 min)
-- Trend: Starting
+- Last 5 plans: 01-01 (~1 min), 01-02 (1 min)
+- Trend: Consistent
 
 *Updated after each plan completion*
 
@@ -48,10 +48,12 @@ Recent decisions affecting current work:
 - [01-01 PRE-01]: Removed future.v4 flag due to CSS Cascade Layers production bug (Issue #11567)
 - [01-01 PRE-02]: React 19 confirmed compatible with all Phase 2 plugins (Algolia, Mermaid, ideal-image) -- no downgrade needed
 - [01-01 PRE-03]: CLAUDE.md baseUrl corrected from /bbj-dwc-tutorial/ to /DWC-Course/
+- [01-02 PRE-04]: Typecheck step placed between npm ci and npm run build for fast failure
+- [01-02 PRE-04]: Deploy guard condition on deploy job only -- build job runs on all triggers for full PR validation
 
 ### Pending Todos
 
-None yet.
+None.
 
 ### Blockers/Concerns
 
@@ -61,5 +63,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-01-31
-Stopped at: Completed 01-01-PLAN.md (config cleanup)
+Stopped at: Completed 01-02-PLAN.md -- Phase 1 (Pre-Flight) complete, ready for Phase 2
 Resume file: None
