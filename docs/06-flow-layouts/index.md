@@ -3,6 +3,8 @@ sidebar_position: 8
 title: "Flow Layouts and CSS for Responsive Design"
 ---
 
+import Image from '@theme/IdealImage';
+
 # Flow Layouts and Using CSS for Responsive Design
 
 This chapter covers different CSS layout strategies to make responsive BBj applications in the Dynamic Web Client.
@@ -17,7 +19,7 @@ Many projects use multiple layout strategies, as some are better suited to certa
 
 A flexible box layout designed for **one-dimensional layout** (row or column).
 
-![CSS Flexbox](/img/CSSFlexbox.png)
+<Image img={require('@site/static/img/CSSFlexbox.png')} alt="CSS Flexbox" />
 
 **Best for:**
 - Windows with a few controls positioned next to one another
@@ -31,7 +33,7 @@ A flexible box layout designed for **one-dimensional layout** (row or column).
 
 A grid-based layout system with **two-dimensional layout** (rows and columns).
 
-![CSS Grid](/img/CSSGrid.png)
+<Image img={require('@site/static/img/CSSGrid.png')} alt="CSS Grid" />
 
 **Best for:**
 - Complex forms
@@ -118,11 +120,11 @@ Run `DWCTraining/05_CssLayouts/DWCFlexbox.bbj`:
 2. Observe how boxes change with window resize
 3. Click [Show CSS] to see the generated styles
 
-![DWC Flexbox Demo](/img/DWC_Flexbox_Demo.png)
+<Image img={require('@site/static/img/DWC_Flexbox_Demo.png')} alt="DWC Flexbox Demo" />
 
 After picking a layout style, click the **[Show CSS]** button to see the CSS styles and BBj code:
 
-![Layout Information Dialog](/img/Layout_Information.png)
+<Image img={require('@site/static/img/Layout_Information.png')} alt="Layout Information Dialog" />
 
 ## Example 2 - CSS Grid Layouts
 
@@ -134,24 +136,24 @@ Run `DWCTraining/05_CssLayouts/DWCGrid.bbj`:
 5. Layout 8: Media queries for 2/4/6 columns based on viewport
 6. Layout 9: `minmax()` for flexible column widths
 
-![CSS Grid Layout Samples](/img/CSS_Layout_Samples_1.png)
+<Image img={require('@site/static/img/CSS_Layout_Samples_1.png')} alt="CSS Grid Layout Samples" />
 
 You can also experiment with CSS Grid layouts at [cssgridplayground.com](https://www.cssgridplayground.com):
 
-![CSS Grid Playground](/img/CSS_Grid_Playground_1.png)
+<Image img={require('@site/static/img/CSS_Grid_Playground_1.png')} alt="CSS Grid Playground" />
 
 ### Responsive Form Example
 
 Using CSS Grid with `repeat(auto-fit, ...)`, forms automatically adjust columns based on available width:
 
 **Narrow window (2 columns):**
-![Narrow form layout](/img/CSS_Layout_Samples_2.png)
+<Image img={require('@site/static/img/CSS_Layout_Samples_2.png')} alt="Narrow form layout" />
 
 **Medium window (4 columns):**
-![Medium form layout](/img/CSS_Layout_Samples_3.png)
+<Image img={require('@site/static/img/CSS_Layout_Samples_3.png')} alt="Medium form layout" />
 
 **Wide window (6 columns):**
-![Wide form layout](/img/CSS_Layout_Samples_4.png)
+<Image img={require('@site/static/img/CSS_Layout_Samples_4.png')} alt="Wide form layout" />
 
 ## Justification and Alignment
 

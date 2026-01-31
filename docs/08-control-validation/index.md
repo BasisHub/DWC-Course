@@ -3,6 +3,8 @@ sidebar_position: 10
 title: "Control Validation"
 ---
 
+import Image from '@theme/IdealImage';
+
 # Control Validation
 
 This chapter covers implementing control validation in DWC applications.
@@ -46,9 +48,9 @@ When validation fails:
 - The label changes color to match
 - An invalid message can be displayed
 
-![Validation Visual Feedback](/img/Validation_1.png)
+<Image img={require('@site/static/img/Validation_1.png')} alt="Validation Visual Feedback" />
 
-![Validation States Example](/img/Validation_2.png)
+<Image img={require('@site/static/img/Validation_2.png')} alt="Validation States Example" />
 
 ## Validation States
 
@@ -83,9 +85,9 @@ rem Clear custom validity
 editBox!.setCustomValidity("")
 ```
 
-![Custom Validation Example](/img/Validation_3.png)
+<Image img={require('@site/static/img/Validation_3.png')} alt="Custom Validation Example" />
 
-![Validation Patterns](/img/Validation_4.png)
+<Image img={require('@site/static/img/Validation_4.png')} alt="Validation Patterns" />
 
 ## Example - Email Validation
 
@@ -98,7 +100,7 @@ email!.setAttribute("type", "email")
 email!.setAttribute("invalid-message", "Please enter a valid email")
 ```
 
-![Email Validation Example](/img/Validation_5.png)
+<Image img={require('@site/static/img/Validation_5.png')} alt="Email Validation Example" />
 
 ![Validation Demo 2](/img/Validation_demo2.gif)
 
@@ -106,21 +108,21 @@ email!.setAttribute("invalid-message", "Please enter a valid email")
 
 Run `DWCTraining/07_ControlValidation/` examples to see validation in action.
 
-![Validation Exercise](/img/Validation_6.png)
+<Image img={require('@site/static/img/Validation_6.png')} alt="Validation Exercise" />
 
-![More Validation Examples](/img/Validation_7.png)
+<Image img={require('@site/static/img/Validation_7.png')} alt="More Validation Examples" />
 
 ### Testing Regular Expressions
 
 Use [Regex101](https://regex101.com) to test your validation patterns:
 
-![Regex101 for testing patterns](/img/Regex101.png)
+<Image img={require('@site/static/img/Regex101.png')} alt="Regex101 for testing patterns" />
 
-![Validation Complete Example](/img/Validation_8.png)
+<Image img={require('@site/static/img/Validation_8.png')} alt="Validation Complete Example" />
 
 ![Validation Demo 3](/img/Validation_demo3.gif)
 
-![Final Validation Example](/img/Validation_9.png)
+<Image img={require('@site/static/img/Validation_9.png')} alt="Final Validation Example" />
 
 ## Best Practices
 

@@ -3,6 +3,8 @@ sidebar_position: 9
 title: "Icon Pools"
 ---
 
+import Image from '@theme/IdealImage';
+
 # Icon Pools
 
 This chapter covers working with icon pools in DWC applications.
@@ -19,7 +21,7 @@ Icons can be added to controls using HTML syntax:
 button!.setText("<html><dwc-icon name='sun'></dwc-icon> Light Mode")
 ```
 
-![Icon Pools Overview](/img/IconPools_1.png)
+<Image img={require('@site/static/img/IconPools_1.png')} alt="Icon Pools Overview" />
 
 ## Available Icon Pools
 
@@ -56,9 +58,9 @@ The DWC includes several icon pools:
 | `arrow-left` | Navigation |
 | `arrow-right` | Navigation |
 
-![Icon Examples](/img/IconPools_2.png)
+<Image img={require('@site/static/img/IconPools_2.png')} alt="Icon Examples" />
 
-![More Icon Examples](/img/IconPools_3.png)
+<Image img={require('@site/static/img/IconPools_3.png')} alt="More Icon Examples" />
 
 ## Styling Icons
 
@@ -82,13 +84,13 @@ deleteBtn! = wnd!.addButton("<html><dwc-icon name='trash'></dwc-icon> Delete")
 deleteBtn!.setAttribute("theme", "danger")
 ```
 
-![Icons in Buttons](/img/IconPools_4.png)
+<Image img={require('@site/static/img/IconPools_4.png')} alt="Icons in Buttons" />
 
-![Icon Button Examples](/img/IconPools_5.png)
+<Image img={require('@site/static/img/IconPools_5.png')} alt="Icon Button Examples" />
 
-![More Icon Examples](/img/IconPools_6.png)
+<Image img={require('@site/static/img/IconPools_6.png')} alt="More Icon Examples" />
 
-![Icon Pools Demo](/img/IconPools_7.png)
+<Image img={require('@site/static/img/IconPools_7.png')} alt="Icon Pools Demo" />
 
 ## Resources
 
