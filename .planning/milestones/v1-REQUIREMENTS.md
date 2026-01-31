@@ -1,3 +1,13 @@
+# Requirements Archive: v1 Platform Foundations
+
+**Archived:** 2026-01-31
+**Status:** SHIPPED
+
+This is the archived requirements specification for v1.
+For current requirements, see `.planning/REQUIREMENTS.md` (created for next milestone).
+
+---
+
 # Requirements: BBj DWC Training Course Enhancement
 
 **Defined:** 2026-01-31
@@ -47,74 +57,7 @@ Requirements for initial release. Focus: platform foundations, search, visual po
 - [x] **CONT-03**: Recommendations produced for each chapter (specific improvements needed)
 - [x] **CONT-04**: Priority ranking of chapters by consultant usage frequency and learner progression
 
-## v2 Requirements
-
-Deferred to future release. Tracked but not in current roadmap.
-
-### AI Chat Assistant
-
-- **CHAT-01**: Context-aware AI chatbot embedded on all pages
-- **CHAT-02**: Chatbot answers DWC questions grounded in course content (RAG)
-- **CHAT-03**: Chatbot guides learners through material (suggests next steps)
-- **CHAT-04**: Source citations linking to specific course sections in every response
-- **CHAT-05**: Locale-aware responses (matches user's selected language)
-
-### DWC Showcase Gallery
-
-- **SHOW-01**: Gallery page displaying BASIS demo applications
-- **SHOW-02**: Tag-based filtering of showcase items
-- **SHOW-03**: Screenshots, descriptions, and links for each demo
-- **SHOW-04**: Navbar link to showcase page
-
-### Internationalization
-
-- **I18N-01**: Docusaurus i18n configured for EN, DE, FR, ES locales
-- **I18N-02**: AI-assisted translation script for Markdown content
-- **I18N-03**: German translation of all 12 chapters (AI-draft + human review)
-- **I18N-04**: Translation freshness tracking (detect stale translations)
-- **I18N-05**: Language selector in navbar
-- **I18N-06**: Spanish translation of all 12 chapters
-- **I18N-07**: French translation of all 12 chapters
-
-### Video Content
-
-- **VID-01**: Reusable `<VideoEmbed>` React component for Synthesia videos
-- **VID-02**: Video URL mapping keyed by chapter and locale
-- **VID-03**: Lazy-loading for all video embeds (performance)
-- **VID-04**: Pilot videos for 2-3 highest-impact chapters (EN)
-- **VID-05**: Multi-language video production (DE, FR, ES)
-- **VID-06**: Text transcripts for all videos (accessibility)
-
-### Content Depth
-
-- **DEEP-01**: Before/after code tabs (BBj Classic vs DWC Modern) in migration chapters
-- **DEEP-02**: Mermaid architecture diagrams added to each chapter
-- **DEEP-03**: More annotated code examples with step-by-step explanations
-- **DEEP-04**: Annotated screenshots showing DWC UI patterns
-
-### Progress & Engagement
-
-- **PROG-01**: localStorage-based progress tracking (chapters completed)
-- **PROG-02**: Progress indicators on ChapterCards component
-- **PROG-03**: "Edit this page" link on every doc page
-
-## Out of Scope
-
-| Feature | Reason |
-|---------|--------|
-| User accounts & authentication | Requires backend, violates static-site constraint |
-| Discussion forums / comments | Moderation burden too high for small team; migrated away from Moodle forums |
-| Gamification (badges, points) | Audience is professional developers; gamification feels patronizing |
-| Full LMS (quizzes, grading) | User hesitant about quizzes for self-paced; requires backend |
-| Newsletter / email collection | GDPR burden, audience finds site through employer not marketing |
-| Blog / news section | Already disabled; stale blog signals abandonment |
-| Interactive code playground | BBj requires server-side execution; impractical for static site |
-| Doc versioning | Low priority unless DWC has frequent breaking changes |
-| Simultaneous 4-language launch | Creates 4x maintenance burden; phase one language at a time |
-
 ## Traceability
-
-Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
@@ -143,9 +86,20 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 **Coverage:**
 - v1 requirements: 18 total
-- Mapped to phases: 18
+- Shipped: 18
 - Unmapped: 0
 
 ---
-*Requirements defined: 2026-01-31*
-*Last updated: 2026-01-31 — All v1 requirements complete (18/18)*
+
+## Milestone Summary
+
+**Shipped:** 18 of 18 v1 requirements
+
+**Adjusted:**
+- SRCH-01: Changed from "Algolia DocSearch integrated" to "Full-text search (local search; Algolia deferred)" — Algolia requires approval process; local search provides equivalent UX immediately
+- SRCH-04: Changed from "contextualSearch: true configured" to "Search configured for future i18n compatibility (Algolia contextualSearch deferred)" — contextualSearch is Algolia-specific
+
+**Dropped:** None
+
+---
+*Archived: 2026-01-31 as part of v1 milestone completion*
