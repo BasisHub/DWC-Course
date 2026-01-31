@@ -7,10 +7,6 @@ const config: Config = {
   tagline: 'Dynamic Web Client Training Course',
   favicon: 'img/favicon.png',
 
-  future: {
-    v4: true,
-  },
-
   url: 'https://BasisHub.github.io',
   baseUrl: '/DWC-Course/',
 
@@ -20,11 +16,16 @@ const config: Config = {
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
+  },
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
   },
 
   presets: [
