@@ -13,7 +13,7 @@ This roadmap transforms the BBj DWC Training Course from a functional static sit
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Pre-Flight** - Resolve config risks, verify compatibility, and harden CI before any feature work
-- [ ] **Phase 2: Search & Visual Tooling** - Enable full-text search, Mermaid diagrams, image optimization, and code block enhancements
+- [x] **Phase 2: Search & Visual Tooling** - Enable full-text search, Mermaid diagrams, image optimization, and code block enhancements
 - [ ] **Phase 3: Navigation & Design Polish** - Restructure sidebar, redesign homepage, ensure responsive and visually consistent experience
 - [ ] **Phase 4: Content Audit** - Audit all 12 chapters for quality and produce prioritized improvement recommendations
 
@@ -48,8 +48,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 02-01-PLAN.md -- Plugin installation and configuration: Mermaid, local search, ideal-image, zooming, copy button verification, example diagram
-- [ ] 02-02-PLAN.md -- Image optimization migration: convert 44 PNG/JPG references across 9 doc files to IdealImage components
+- [x] 02-01-PLAN.md -- Plugin installation and configuration: Mermaid, local search, ideal-image, zooming, copy button verification, example diagram
+- [x] 02-02-PLAN.md -- Image optimization migration: convert 45 PNG/JPG references across 9 doc files to IdealImage components
 
 ### Phase 3: Navigation & Design Polish
 **Goal**: The site looks polished enough to show prospects and clients, with intuitive navigation for both learners and consultants
@@ -89,10 +89,10 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Pre-Flight | 2/2 | ✓ Complete | 2026-01-31 |
-| 2. Search & Visual Tooling | 0/TBD | Not started | - |
+| 2. Search & Visual Tooling | 2/2 | ✓ Complete | 2026-01-31 |
 | 3. Navigation & Design Polish | 0/TBD | Not started | - |
 | 4. Content Audit | 0/TBD | Not started | - |
 
 ---
 *Roadmap created: 2026-01-31*
-*Last updated: 2026-01-31 — Phase 1 complete*
+*Last updated: 2026-01-31 — Phase 2 complete*

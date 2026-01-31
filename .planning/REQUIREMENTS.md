@@ -16,10 +16,10 @@ Requirements for initial release. Focus: platform foundations, search, visual po
 
 ### Search & Discovery
 
-- [ ] **SRCH-01**: Algolia DocSearch integrated -- full-text search across all course content
-- [ ] **SRCH-02**: Search accessible via keyboard shortcut (Cmd+K / Ctrl+K)
-- [ ] **SRCH-03**: Search results show context snippets and link to specific sections
-- [ ] **SRCH-04**: Search configured with `contextualSearch: true` for future i18n compatibility
+- [x] **SRCH-01**: Full-text search across all course content (local search; Algolia deferred to future enhancement)
+- [x] **SRCH-02**: Search accessible via keyboard shortcut (Cmd+K / Ctrl+K)
+- [x] **SRCH-03**: Search results show context snippets and link to specific sections
+- [x] **SRCH-04**: Search configured for future i18n compatibility (Algolia contextualSearch deferred with Algolia integration)
 
 ### Navigation & UX
 
@@ -29,10 +29,10 @@ Requirements for initial release. Focus: platform foundations, search, visual po
 
 ### Code & Visual Enhancements
 
-- [ ] **VIS-01**: Mermaid diagrams enabled via `@docusaurus/theme-mermaid` -- architecture and flow diagrams renderable from Markdown
-- [ ] **VIS-02**: Code block copy button enabled across all code blocks
-- [ ] **VIS-03**: Image optimization via `@docusaurus/plugin-ideal-image` -- responsive sizing, quality optimization for PNG screenshots
-- [ ] **VIS-04**: BBj syntax highlighting verified working with Prism (already supported -- confirm in current config)
+- [x] **VIS-01**: Mermaid diagrams enabled via `@docusaurus/theme-mermaid` -- architecture and flow diagrams renderable from Markdown
+- [x] **VIS-02**: Code block copy button enabled across all code blocks
+- [x] **VIS-03**: Image optimization via `@docusaurus/plugin-ideal-image` -- responsive sizing, quality optimization for PNG screenshots
+- [x] **VIS-04**: BBj syntax highlighting verified working with Prism (already supported -- confirm in current config)
 
 ### Visual Design & Polish
 
@@ -122,14 +122,14 @@ Which phases cover which requirements. Updated during roadmap creation.
 | PRE-02 | Phase 1 | Complete |
 | PRE-03 | Phase 1 | Complete |
 | PRE-04 | Phase 1 | Complete |
-| SRCH-01 | Phase 2 | Pending |
-| SRCH-02 | Phase 2 | Pending |
-| SRCH-03 | Phase 2 | Pending |
-| SRCH-04 | Phase 2 | Pending |
-| VIS-01 | Phase 2 | Pending |
-| VIS-02 | Phase 2 | Pending |
-| VIS-03 | Phase 2 | Pending |
-| VIS-04 | Phase 2 | Pending |
+| SRCH-01 | Phase 2 | Complete (local search; Algolia deferred) |
+| SRCH-02 | Phase 2 | Complete |
+| SRCH-03 | Phase 2 | Complete |
+| SRCH-04 | Phase 2 | Complete (Algolia contextualSearch deferred) |
+| VIS-01 | Phase 2 | Complete |
+| VIS-02 | Phase 2 | Complete |
+| VIS-03 | Phase 2 | Complete |
+| VIS-04 | Phase 2 | Complete |
 | NAV-01 | Phase 3 | Pending |
 | NAV-02 | Phase 3 | Pending |
 | NAV-03 | Phase 3 | Pending |
@@ -148,4 +148,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-01-31*
-*Last updated: 2026-01-31 — Phase 1 requirements complete*
+*Last updated: 2026-01-31 — Phase 2 requirements complete (Algolia deferred)*
