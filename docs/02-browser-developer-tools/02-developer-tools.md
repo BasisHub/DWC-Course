@@ -3,6 +3,8 @@ sidebar_position: 2
 title: "Introduction to the Browser's Developer Tools"
 ---
 
+import Image from '@theme/IdealImage';
+
 # Introduction to the Browser's Developer Tools
 
 ## Overview
@@ -70,7 +72,7 @@ The Developer Tools offer configuration options including:
 | **Application** | Shows cookies, local/session storage, images, scripts, stylesheets |
 | **Styles** | Shows all styles for the selected element; Computed styles shows only rules in effect |
 
-![Developer Tools Console View](/img/ChromeDevConsoleView.png)
+<Image img={require('@site/static/img/ChromeDevConsoleView.png')} alt="Developer Tools Console View" />
 
 ## Example 2 - Modifying a DWC App in the Developer Tools
 
@@ -93,11 +95,11 @@ Change the text by either:
 3. Find the "dwc-frame-titlebar-text" class definition
 4. Click the closing curly brace `}` and type `color: green`
 
-![Title bar text without color](/img/dwc_titlebar_text_nocolor.png)
+<Image img={require('@site/static/img/dwc_titlebar_text_nocolor.png')} alt="Title bar text without color" />
 
 After adding the color style:
 
-![Title bar text with color](/img/dwc_titlebar_text.png)
+<Image img={require('@site/static/img/dwc_titlebar_text.png')} alt="Title bar text with color" />
 
 :::note
 Changes made in Developer Tools are temporary and will disappear on page refresh. This is perfect for quick testing before making permanent changes in your code.
@@ -196,8 +198,8 @@ Clicking on a panel element in the Elements tab overlays a grid showing:
 - **Purple** - CSS Grid gaps
 - **Blue** - CSS Grid cells containing BBj controls
 
-![DWC Panel Grid](/img/DwcPanel.png)
+<Image img={require('@site/static/img/DwcPanel.png')} alt="DWC Panel Grid" />
 
 Click the small grid tag next to elements with CSS Grid to see sizing information. The Layout tab provides additional grid overlay controls.
 
-![Grid Size Information](/img/DWC1_showGridSize.png)
+<Image img={require('@site/static/img/DWC1_showGridSize.png')} alt="Grid Size Information" />

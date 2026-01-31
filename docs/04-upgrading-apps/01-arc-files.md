@@ -3,6 +3,8 @@ sidebar_position: 1
 title: "Working with ARC Files"
 ---
 
+import Image from '@theme/IdealImage';
+
 # Working with ARC Files
 
 ## Overview
@@ -45,11 +47,11 @@ You can address control ordering in two ways:
 
 The following shows how a button that is added first in the arc file appears as the first control in the window when using GRAVITY.
 
-![ARC File Example - Before](/img/ARC_image_1.png)
+<Image img={require('@site/static/img/ARC_image_1.png')} alt="ARC File Example - Before" />
 
 The DWC version of the program in the course material demonstrates how the button can be positioned at the end using CSS grid layout instructions.
 
-![ARC File Example - After CSS](/img/ARC_image_2.png)
+<Image img={require('@site/static/img/ARC_image_2.png')} alt="ARC File Example - After CSS" />
 
 ## Source Code
 

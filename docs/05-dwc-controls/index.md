@@ -3,6 +3,8 @@ sidebar_position: 7
 title: "DWC Controls With Extended Attributes"
 ---
 
+import Image from '@theme/IdealImage';
+
 # DWC Controls With Extended Attributes
 
 This chapter covers BBj controls implemented as web components for the Dynamic Web Client and their extended attributes.
@@ -42,9 +44,9 @@ Theme colors are defined by CSS custom properties with three main properties:
 
 Colors range from 5% to 95% lightness: `--dwc-color-primary-25` (dark) to `--dwc-color-primary-85` (light).
 
-![DWC Themer showing color themes](/img/DWC_Themer.png)
+<Image img={require('@site/static/img/DWC_Themer.png')} alt="DWC Themer showing color themes" />
 
-![Color CSS properties](/img/ColorCss.png)
+<Image img={require('@site/static/img/ColorCss.png')} alt="Color CSS properties" />
 
 ## Attributes
 
@@ -72,7 +74,7 @@ DWC controls offer attributes providing extra functionality beyond GUI and BUI c
 3. Search in individual trees and via global search
 4. Note custom error messages via `search-nodata` attribute
 
-![Tree Search Demo](/img/TreeSearch.png)
+<Image img={require('@site/static/img/TreeSearch.png')} alt="Tree Search Demo" />
 
 ## Input Control Labels
 
@@ -87,11 +89,11 @@ BBj input controls offer a "label" attribute that creates and places a label aut
 
 **With attribute label:**
 
-![EditBox with attribute label](/img/EditBox_withLabel.png)
+<Image img={require('@site/static/img/EditBox_withLabel.png')} alt="EditBox with attribute label" />
 
 **Without attribute label (separate BBjStaticText):**
 
-![EditBox without attribute label](/img/EditBox_withoutLabel.png)
+<Image img={require('@site/static/img/EditBox_withoutLabel.png')} alt="EditBox without attribute label" />
 
 ## Example 2 - Comparing Label Types
 
@@ -105,6 +107,6 @@ BBj input controls offer a "label" attribute that creates and places a label aut
 
 **With BBjStaticText:** Labels are separate elements that can separate from inputs when resizing.
 
-![Label Attributes Demo](/img/LabelAttributes.png)
+<Image img={require('@site/static/img/LabelAttributes.png')} alt="Label Attributes Demo" />
 
-![Discrete Labels Comparison](/img/DiscreteLabels.png)
+<Image img={require('@site/static/img/DiscreteLabels.png')} alt="Discrete Labels Comparison" />

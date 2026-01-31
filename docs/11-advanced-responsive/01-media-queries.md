@@ -3,6 +3,8 @@ sidebar_position: 1
 title: "Media Queries"
 ---
 
+import Image from '@theme/IdealImage';
+
 # Media Queries
 
 ## Overview
@@ -104,7 +106,7 @@ web!.injectStyle(css$)
 4. Drag handles to resize viewport
 5. Watch layout change at breakpoints
 
-![Media Queries Size Change Demo](/img/MediaQueries_sizeChange.png)
+<Image img={require('@site/static/img/MediaQueries_sizeChange.png')} alt="Media Queries Size Change Demo" />
 
 ## Exercise: Media Queries
 

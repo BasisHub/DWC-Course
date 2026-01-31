@@ -3,6 +3,8 @@ sidebar_position: 1
 title: "Registering and Launching a DWC App"
 ---
 
+import Image from '@theme/IdealImage';
+
 # Registering and Launching a DWC App
 
 ## Overview
@@ -69,7 +71,7 @@ You can configure Eclipse to use your system's default web browser:
 3. Select the **'Use external web browser'** radio button
 4. Choose either 'Default system web browser' or select a specific browser
 
-![Eclipse Browser Preferences](/img/EclipsePreferences.png)
+<Image img={require('@site/static/img/EclipsePreferences.png')} alt="Eclipse Browser Preferences" />
 
 After doing so, the next time you launch an app via the toolbar icon it will display in a tab in your default web browser, such as Google Chrome or Microsoft Edge.
 
@@ -81,7 +83,7 @@ Using an external browser will be the preferred way to launch a DWC app later on
 
 If you don't normally write your code in Eclipse, you can register and launch a DWC application using Enterprise Manager:
 
-![Enterprise Manager Registration](/img/EM_Registration.png)
+<Image img={require('@site/static/img/EM_Registration.png')} alt="Enterprise Manager Registration" />
 
 ### Registration Steps
 

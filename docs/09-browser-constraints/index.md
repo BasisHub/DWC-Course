@@ -3,6 +3,8 @@ sidebar_position: 11
 title: "Browser Constraints"
 ---
 
+import Image from '@theme/IdealImage';
+
 # Browser Constraints
 
 This chapter covers browser constraints and limitations when working with DWC applications.
@@ -15,7 +17,7 @@ The browser environment has certain constraints that differ from traditional GUI
 
 The browser does not support direct access to client files. This section describes how to implement file uploads and downloads with DWC.
 
-![Client Files Handling](/img/ClientFiles.png)
+<Image img={require('@site/static/img/ClientFiles.png')} alt="Client Files Handling" />
 
 ### File Uploads
 
