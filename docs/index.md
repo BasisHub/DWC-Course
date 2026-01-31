@@ -2,33 +2,28 @@
 sidebar_position: 1
 slug: /
 title: BBj DWC Training
+hide_table_of_contents: true
 ---
 
+import Hero from '@site/src/components/Hero';
+import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import ChapterCards from '@site/src/components/ChapterCards';
+import Link from '@docusaurus/Link';
 
-# BBj DWC Training
+<Hero />
 
-Welcome to the BBj Dynamic Web Client (DWC) Training course. This course will teach you how to develop modern web applications using BBj and the Dynamic Web Client.
-
-## Course Overview
-
-This comprehensive 12-chapter training course covers everything you need to build modern web applications with BBj DWC:
+<HomepageFeatures />
 
 <ChapterCards />
 
-## Getting Started
+<div className="text--center" style={{padding: '3rem 0'}}>
 
-Before starting this course, please review the [Prerequisites](prerequisites) to ensure you have the necessary background knowledge and setup.
+## Ready to Get Started?
 
-## Sample Code
+Jump into Chapter 1 and begin building modern web applications with BBj and the Dynamic Web Client.
 
-Hands-on [sample code](samples) is included with this course. Each chapter has corresponding BBj source files you can run and experiment with.
+<Link className="button button--primary button--lg" to="/gui-to-bui-to-dwc">
+  Begin Chapter 1
+</Link>
 
-## Setup Requirements
-
-Your setup for this course should include:
-
-- BBj 24.02 or later
-- Eclipse IDE
-- BDT 24
-- VSCode or another editor for CSS
+</div>
